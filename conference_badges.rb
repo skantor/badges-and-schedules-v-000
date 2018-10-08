@@ -28,4 +28,5 @@ def printer(my_list)
   my_list.each do |name|
     puts batch_badge_creator(name)
     puts assignments[name]
+  end 
 end 
