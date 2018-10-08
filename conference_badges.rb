@@ -25,6 +25,7 @@ end
 
 def printer(my_list)
   assignments = assign_rooms(my_list)
-  puts batch_badge_creator(my_list)
-  puts assignments[my_list]
+  my_list.each do |name|
+    puts batch_badge_creator(name)
+    puts assignments[name]
 end 
