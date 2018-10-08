@@ -23,9 +23,9 @@ def assign_rooms(speakers)
   assignment
 end 
 
-def printer(array)
-  assignments = assign_rooms(array)
-  array.each do |name|
+def printer(my_list)
+  assignments = assign_rooms(my_list)
+  my_list.each do |name|
     puts batch_badge_creator(name)
     puts assignments[name]
   end 
